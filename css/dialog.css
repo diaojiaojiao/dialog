@@ -1,0 +1,56 @@
+.dialogContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button {
+    cursor: pointer;
+}
+.dialogMain {
+    width: 300px;
+    height: 200px;
+    border: 1px  solid  grey;
+    border-radius: 5px;
+    padding: 2px;
+    display: none;
+    margin-top: 50px;
+}
+.dialogTitle {
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    background: #dbdbdb;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.inputName, .inputAge {
+    outline: none;
+    border-radius:2px;
+}
+.dialogContent {
+    height: 70%;
+    position: relative;
+    padding:10px;
+}
+.dialogBtn {
+     position: absolute;
+     right: 20px;
+     bottom: 0;
+ }
+.cancelBtn , .cancelSmallBtn{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+   line-height: 18px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: #dbdbdb;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.show {
+    padding:10px;
+    display: none;
+}
